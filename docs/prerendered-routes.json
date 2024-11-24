@@ -1,0 +1,15 @@
+{
+  "routes": [
+    "/cadastrar-obra",
+    "/cadastro-user",
+    "/editar-obra",
+    "/home",
+    "/login",
+    "/menu-gestor-cliente",
+    "/menu-gestor-cliente/cliente",
+    "/menu-gestor-cliente/gestor",
+    "/obra-andamento",
+    "/obra-especifica-cliente",
+    "/obra-finalizada"
+  ]
+}
