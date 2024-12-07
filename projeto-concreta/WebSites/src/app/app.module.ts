@@ -10,9 +10,10 @@ import { RippleModule } from 'primeng/ripple';
 import { MessageService } from 'primeng/api';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ObrasService } from '../app/core/api/services/obras/obras.service';
-
+import { HomeComponent } from './pages/home/home.component';
 import { LoginModule } from './pages/login/login.module';
 import { CadastroUserModule } from './pages/cadastro-user/cadastro-user.module';
+import { HomeModule } from './pages/home/home.module';
 
 
 @NgModule({
@@ -27,8 +28,7 @@ import { CadastroUserModule } from './pages/cadastro-user/cadastro-user.module';
     RippleModule,
     BrowserAnimationsModule,
     FormsModule,
-
-
+    HomeModule,
   ],
   providers: [
     provideClientHydration(),
